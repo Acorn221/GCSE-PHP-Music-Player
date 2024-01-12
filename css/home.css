@@ -1,0 +1,135 @@
+
+.menu {
+    left: 25%; /*  This is for the positioning of the top menu  */
+    top: 4%; /*  This is for the positioning of the left menu  */
+    width: 55%; /*  This is for the box width  */
+    font-size: 50px; /*  This set's the font size  */
+    padding: 30px;   /*This is so the text isn't at the very edge of the box */
+	-webkit-box-sizing: border-box; /* The Box Sizing parts are for the padding not to affect the width of the menu */
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;         
+    background-color: rgb(244, 244, 244); /*  This is for the box colour  */
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.23), 0 8px 8px 0 rgba(0, 0, 0, 0.23); /*  This is for the dropshadow in the box  */
+    position: absolute; /*    */
+}
+.submitPlaylist{
+	left: 85%; /*  This is for the positioning of the top menu  */
+    top: 30%; /*  This is for the positioning of the left menu  */
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+	position: fixed;
+	padding: 20px;
+	background-color: rgb(244, 244, 244); /*  This is for the box colour  */
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.23), 0 8px 8px 0 rgba(0, 0, 0, 0.23); /*  This is for the dropshadow in the box  */
+	display: none;
+}
+.playlist {
+    width: 12%; /*  This is for the box width  */
+    height: 70%; /*  this is for the box size  */
+    background-color: rgb(244, 244, 244); /*  This is for the box colour  */
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.23), 0 8px 8px 0 rgba(0, 0, 0, 0.23); /*  This is for the dropshadow in the box  */
+    position: fixed; /*  This is so the 'top' and 'left' tag's work  */
+    left: 1.5%; /*  This is for the positioning of the left playlist list  */
+    top: 16%; /*  This is for the positioning of the top playlist list   */
+    font-size: 50px; /*  This is so the font size is big  */
+    padding: 40px; /*  This is so the text isn't at the very edge of the box  */
+	text-align: center-left;
+}
+.playlist li {
+	font-size: 30px;
+}
+.playlist div{
+	font-size: 20px;
+	text-decoration:none;
+	
+}
+  .title {
+    color:  rgb(249, 249, 249); /* This sets all items in 'h1' to a light grey */
+    font-size: 400%; /* This sets all the items in 'h1' to the font size of 100px */
+    position: fixed; /*  This is so the 'top' and 'left' tag's work  */
+    left: 1.6%; /*  This is for the positioning of the OCRtunes title  */
+    top:3%; /*  This is for the positioning of the the OCRtunes title  */
+  }
+  .songs{ 
+    position: absolute; /*  This is so the 'top' and 'left' tag's work  */
+    left: 25%; /*  This is for the positioning of the main information  */
+    top: 25%; /*  This is for the positioning of the main information  */
+	width: 55%;
+  }
+  .player {
+	position: absolute; /*  This is so the 'top' and 'left' tag's work  */
+    left: 25%; /*  This is for the positioning of the player information  */
+    top: 20%; /*  This is for the positioning of the player information  */
+	width: 55%;
+	height: 20px;
+	background-color: rgb(244, 244, 244); /*  This is for the box colour  */
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.23), 0 8px 8px 0 rgba(0, 0, 0, 0.23); /*  This is for the dropshadow in the box  */
+  }
+  .autoplay {
+	position: absolute; /*  This is so the 'top' and 'left' tag's work  */
+    left: 80.8%; /*  This is for the positioning of the player information  */
+    top: 17%; /*  This is for the positioning of the player information  */
+	font-size: 25px;
+  }
+  #autoplay{
+	position: absolute; /*  This is so the 'top' and 'left' tag's work  */
+    left: 82.4%; /*  This is for the positioning of the player information  */
+    top: 20%; /*  This is for the positioning of the player information  */
+	width:25px;
+	height:25px;
+  }
+text-shadow: 2px 1px 6px #000000; /*  Set's the text shadow, it is suttle but makes the text lot's clearer  */
+ h1 {
+    color:  rgb(249, 249, 249); /* This sets all items in 'h1' to a light grey */
+    font-size: 100px; /* This sets all the items in 'h1' to the font size of 100px */
+  }
+body {
+  background: linear-gradient(to left, #76b852, #8DC26F); /* Sets a gradient from a green to a lighter green */
+  -webkit-font-smoothing: antialiased;  /* Makes the font look less pixelated */
+  font-family: Arial, Helvetica, sans-serif;/* This sets the font */
+    -webkit-touch-callout: none; /* This is to stop selection because it get's annoying */
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+}
+table {
+  background:  rgb(244, 244, 244);/* Sets the form area's background colour */
+  padding: 30px;/* Sets the padding around the text boxes */
+  text-align: center;/* Sets the text to the center of the screen */
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.23), 0 8px 8px 0 rgba(0, 0, 0, 0.23);/* Sets a shadow around the input area */
+  font-size: 40px;/* Set's the font size of the Register link */
+  color:  rgb(100, 100, 100); /* This sets all items in 'h1' to a light grey */
+}
+button {
+  background: #4CAF50;/* Sets the background of the button to the green theme of the background */
+  cursor: pointer;/* Makes the cursor not change when the mouse is hovered over, this makes it look better because the hover function lets the user know that it is clickable */
+  border: 0;/* Removes the default button border */
+  padding: 12px;/* Sets the padding around the button */
+  color: #FFFFFF;/* Sets the text colour to white*/
+  width: 100%;/*  Set's the width of the button to make it the same width as the input boxed */
+}
+button:hover{
+  background: #43A047;/* Changes the background of the button when the mouse is hovered over */
+}
+div{
+  color: rgba(0, 0, 0, 0.35);
+}
+a {
+  color: #4CAF50; /* This sets the colour of hyperlinks (anything with the tag 'a') */
+  text-decoration: none; /* This removes the default underlining of the  hyperlinks*/
+}
+
+table, th, td {
+   border: 1px solid black;
+   font-size: 25px;
+}
+tr:hover{
+	color:  rgb(40, 40, 40);
+	cursor:pointer;
+}
+.noHover:hover{
+	color:  rgb(100, 100, 100);
+}
